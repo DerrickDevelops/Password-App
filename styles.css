@@ -1,0 +1,110 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family:Arial, Helvetica, sans-serif;
+}
+body {
+	background: #1f2937;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.wrapper {
+  width: 340px;
+}
+.heading {
+	width: 340px;
+	margin: 0 0 10px 0;
+	font-size: 15px;
+	color: #ffffff;
+}
+span {
+	color: #4adf86;
+}
+.subheading {
+	width: 340px;
+	font-size: 10px;
+	color: #dad7cd;
+}
+.btn {
+	margin: 20px 0 30px 0;
+	
+}
+button {
+	font-size: 14px;
+	font-weight: 600;
+	padding: 5px 12px 5px 12px;
+	border-radius: 5px;
+	border: none;
+	background: #4adf86;
+	color: #ffffff;
+	cursor: pointer;
+}
+#clear {
+	background: #dad7cd;
+	color: #1f2937;
+	opacity: 0.2;
+}
+.passwordlength {
+	margin: 20px 0;
+	padding-bottom: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 2px dotted #dad7cd;
+}
+.pass_text {
+	color: #ffffff;
+	padding: 0 30px 0 0; 
+}
+#increase {
+	font-size: 16px;
+}
+#lengthinput {
+	padding: 8px 0;
+	width: 50px;
+	margin: 0 10px;
+	text-align: center;
+	background: rgba(0,0,0,0.5);
+	border-radius: 5px;
+}
+#decrease {
+	font-size: 16px;
+
+}
+.passwords {
+	width: 340px;
+	
+}
+input {
+	width: 160px;
+	padding: 8px 12px 8px 12px;
+	border-radius: 5px;
+	border: none;
+	color: #ffffff;
+	background: rgba(0,0,0,0.5);
+	
+}
+
+::placeholder {
+	color: #ffffff;
+	opacity: 0.2;
+}
+.copybtn {
+	width: 320px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border: none;
+}
+#copy1, #copy2 {
+	margin: 10px 0;
+	padding: 5px 24px;
+	font-size: 12px;
+	background: #1f2937;
+	color: #4adf86;
+	border: 2px solid #4adf86;
+	opacity: 0.5;
+}
