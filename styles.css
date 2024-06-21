@@ -3,7 +3,7 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family:Arial, Helvetica, sans-serif;
-	border: 2px solid red;
+	border: 2px solid rgba(255, 0, 0, 0.158);
 }
 
 body {
@@ -20,17 +20,18 @@ body {
 
 .heading {
 	width: clamp(45rem, 60vw, 60rem);
-	margin: 0 0 10px 0;
-	font-size: clamp(2rem, 3vw, 5rem);
+	height: clamp(14rem, 25vh, 30rem);
+	font-size: clamp(2.5rem, 3vw, 5rem);
 	color: #ffffff;
 }
+
 span {
 	color: #4adf86;
 }
 
 .subheading {
 	width: clamp(45rem, 60vw, 60rem);
-	font-size: 10px;
+	font-size: clamp(1rem, 1vw, 1rem);
 	color: #dad7cd;
 }
 
@@ -43,6 +44,7 @@ span {
 
 .pass_text {
 	width: clamp(22.5rem, 30vw, 30rem);
+	font-size: clamp(1.5rem, 2.5vw, 3rem);
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -75,20 +77,17 @@ span {
 
 }
 
-.passwords {
-	width: clamp(45rem, 60vw, 60rem);
-	display: flex;
-	justify-content: space-around;
-	
-}
-
 .btn {
-	margin: 20px 0 30px 0;
-	
+	width: clamp(22.5rem, 30vw, 30rem);
+	margin: 1rem 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
 }
 
 button {
-	font-size: 14px;
+	font-size: clamp(1.2rem, 1.5vw, 3rem);
 	font-weight: 600;
 	padding: 5px 12px 5px 12px;
 	border-radius: 5px;
@@ -99,13 +98,21 @@ button {
 }
 
 #clear {
+	font-size: clamp(1.2rem, 1.5vw, 3rem);
 	background: #dad7cd;
 	color: #1f2937;
 	opacity: 0.2;
 }
 
+.passwords {
+	padding: 1rem 0;
+	width: clamp(45rem, 60vw, 60rem);
+	display: flex;
+	justify-content: space-around;
+}
+
 input {
-	width: 160px;
+	width: clamp(15rem, 25vw, 25rem);
 	padding: 8px 12px 8px 12px;
 	border-radius: 5px;
 	border: none;
@@ -130,7 +137,7 @@ input {
 #copy1, #copy2 {
 	margin: 10px 0;
 	padding: 5px 24px;
-	font-size: 12px;
+	font-size: clamp(1rem, 1vw, 2rem);
 	background: #1f2937;
 	color: #4adf86;
 	border: 2px solid #4adf86;
