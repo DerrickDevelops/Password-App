@@ -3,7 +3,7 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family:Arial, Helvetica, sans-serif;
-	border: 2px solid rgba(255, 0, 0, 0.158);
+	/* border: 2px solid rgba(255, 0, 0, 0.158); */
 }
 
 body {
@@ -60,20 +60,20 @@ span {
 }
 
 #increase {
-	font-size: 16px;
+	font-size: clamp(1.5rem, 2vw, 2rem);
 }
 
 #lengthinput {
-	padding: 8px 0;
-	width: 50px;
-	margin: 0 10px;
+	padding: 0.5rem 0;
+	width: clamp(3rem, 5vw, 6rem);
+	margin: 0 1rem;
 	text-align: center;
 	background: rgba(0,0,0,0.5);
 	border-radius: 5px;
 }
 
 #decrease {
-	font-size: 16px;
+	font-size: clamp(1.5rem, 2vw, 2rem);
 
 }
 
