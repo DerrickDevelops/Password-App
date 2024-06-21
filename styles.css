@@ -3,8 +3,9 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family:Arial, Helvetica, sans-serif;
-	/* border: 2px solid red; */
+	border: 2px solid red;
 }
+
 body {
 	background: #1f2937;
 	height: 100vh;
@@ -12,27 +13,80 @@ body {
 	justify-content: center;
 	align-items: center;
 }
+
 .wrapper {
-  width: clamp(420px, 30vw, 480px);
+  width: clamp(45rem, 60vw, 60rem);
 }
+
 .heading {
-	width: clamp(420px, 50vw, 500px);
+	width: clamp(45rem, 60vw, 60rem);
 	margin: 0 0 10px 0;
-	font-size: clamp(1rem, 3vw, 1.8rem);
+	font-size: clamp(2rem, 3vw, 5rem);
 	color: #ffffff;
 }
 span {
 	color: #4adf86;
 }
+
 .subheading {
-	width: 340px;
+	width: clamp(45rem, 60vw, 60rem);
 	font-size: 10px;
 	color: #dad7cd;
 }
+
+.passwordlength {
+	margin: 20px 0;
+	padding-bottom: 10px;
+	display: flex;
+	border-bottom: 2px dotted #dad7cd;
+}
+
+.pass_text {
+	width: clamp(22.5rem, 30vw, 30rem);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #ffffff;
+	padding: 0 30px 0 0; 
+}
+
+.toggle-password-length {
+	width: clamp(22.5rem, 30vw, 30rem);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#increase {
+	font-size: 16px;
+}
+
+#lengthinput {
+	padding: 8px 0;
+	width: 50px;
+	margin: 0 10px;
+	text-align: center;
+	background: rgba(0,0,0,0.5);
+	border-radius: 5px;
+}
+
+#decrease {
+	font-size: 16px;
+
+}
+
+.passwords {
+	width: clamp(45rem, 60vw, 60rem);
+	display: flex;
+	justify-content: space-around;
+	
+}
+
 .btn {
 	margin: 20px 0 30px 0;
 	
 }
+
 button {
 	font-size: 14px;
 	font-weight: 600;
@@ -43,44 +97,13 @@ button {
 	color: #ffffff;
 	cursor: pointer;
 }
+
 #clear {
 	background: #dad7cd;
 	color: #1f2937;
 	opacity: 0.2;
 }
-.passwordlength {
-	margin: 20px 0;
-	padding-bottom: 10px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	border-bottom: 2px dotted #dad7cd;
-}
-.pass_text {
-	color: #ffffff;
-	padding: 0 30px 0 0; 
-}
-#increase {
-	font-size: 16px;
-}
-#lengthinput {
-	padding: 8px 0;
-	width: 50px;
-	margin: 0 10px;
-	text-align: center;
-	background: rgba(0,0,0,0.5);
-	border-radius: 5px;
-}
-#decrease {
-	font-size: 16px;
 
-}
-.passwords {
-	width: 480px;
-	display: flex;
-	justify-content: space-around;
-	
-}
 input {
 	width: 160px;
 	padding: 8px 12px 8px 12px;
@@ -95,13 +118,15 @@ input {
 	color: #ffffff;
 	opacity: 0.2;
 }
+
 .copybtn {
-	width: 480px;
+	width: clamp(45rem, 60vw, 60rem);
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 	border: none;
 }
+
 #copy1, #copy2 {
 	margin: 10px 0;
 	padding: 5px 24px;
