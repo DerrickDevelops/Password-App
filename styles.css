@@ -19,7 +19,7 @@ body {
 }
 
 .heading {
-	width: clamp(45rem, 60vw, 60rem);
+	width: clamp(48rem, 60vw, 60rem);
 	height: clamp(10rem, 18vh, 30rem);
 	font-size: clamp(2.5rem, 3vw, 5rem);
 	color: #ffffff;
