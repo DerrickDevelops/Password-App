@@ -20,7 +20,7 @@ body {
 
 .heading {
 	width: clamp(45rem, 60vw, 60rem);
-	height: clamp(7rem, 18vh, 30rem);
+	height: clamp(6rem, 18vh, 30rem);
 	font-size: clamp(2.5rem, 3vw, 5rem);
 	color: #ffffff;
 }
@@ -109,6 +109,13 @@ button {
 	width: clamp(45rem, 60vw, 60rem);
 	display: flex;
 	justify-content: space-around;
+}
+
+@media only screen and (max-width: 600px) {
+  .passwords {
+    display: flex;
+				flex-direction: column;
+  }
 }
 
 input {
