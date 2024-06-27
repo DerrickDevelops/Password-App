@@ -114,7 +114,7 @@ button {
 @media only screen and (max-width: 600px) {
   .passwords {
     display: flex;
-				flex-direction: column;
+				flex-direction: row;
   }
 }
 
