@@ -111,11 +111,12 @@ button {
 	justify-content: space-around;
 }
 
-@media only screen and (max-width: 600px) {
-  .passwords {
-    display: flex;
-				flex-direction: row;
-  }
+@media (max-width:820px) {
+	.passwords {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
 }
 
 input {
